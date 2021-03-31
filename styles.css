@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+:root{
+    --primary-color: #FBBF24;
+    --reddish-white: #FEF2F2;
+    --blue: #1c4372;
+    --gray: #374151;
+    --dark-gray: #1F2937;
+    --golden: #FFD700;
+    --light-gray: #6B7280;
+}
+
+body{
+    font-family: 'Syne Mono', monospace;
+    margin: 0px;
+    background-color: var(--gray);
+    color: var(--golden);
+}
+
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+textarea {
+    padding: 2rem 2rem;
+    width: 100%;
+    display: block;
+    margin: 1rem;
+    height: 5vh;
+    font-size: large;
+    font-family: inherit;
+    color: var(--golden);
+    margin-top: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 15vh;
+    background-color: var(--light-gray);
+    border-radius: 2rem;
+}
+
+
+#output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 100%;
+    padding: 1rem;
+    min-height: 15vh;
+    max-height: 20vh;
+    margin: 1rem;
+    box-sizing: border-box;
+    color: var(--golden);
+    background-color: var(--light-gray);
+    border-radius: 2rem;
+}
+
+#navigation{
+    background-color: var(--dark-gray);
+    padding: 0.5rem;
+    color: var(--golden);
+    text-align: center;
+}
+
+#btn-translate{
+    background-color: var(--golden);
+    color:var(--dark-gray);
+    padding: 0.5rem 0.5rem;
+    border: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: larger;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--dark-gray);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+}
